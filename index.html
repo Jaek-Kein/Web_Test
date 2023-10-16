@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Naver Open API Service : List of API</title>
+    <link rel="stylesheet" href="css\mystyle.css" />
+    <script src=" js\master.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Naver Open API Service</h1>
+    <div id="grid">
+      <div>
+        <ol type="none">
+          <li><a href="index.html">List of API</a></li> 
+          <li><a href="Search.html">Search</a></li>
+          <li><a href="Naver Login.html">Naver Login</a></li> 
+          <li><a href="View Profile.html">View Profile</a></li>
+          <li><a href="Papago Translation.html">Papago Trasnlation</a></li>
+          <li><a href="Clova Face Recognization.html">Clova Face Recognization</a></li>
+          <li><a><input id="night_day" type="button" value="night" onclick="nightDayHandler(this)"></a></li>
+        </ol>
+      </div>
+      <div>
+        <h2>List of API</h2>
+        <br>
+        <p>
+        &emsp; List of open Api Provided by Naver
+        </p>
+        <div class="page">
+         <table class="layout display responsive-table">
+             <thead>
+                 <tr>
+                     <th>Name</th>
+                     <th>Usage</th>
+                     <th>Limit</th>
+                 </tr>
+             </thead>
+             <tbody>
+         
+                 <tr>
+                     <td class="organisationnumber">Search</td>
+                     <td class="organisationname">Naver blog, Image, Web, News, Cafe, etc</td>
+                     <td class="actions">25,000 request/day</td>
+                 </tr>
+         
+                 <tr>
+                     <td class="organisationnumber">Naver Login</td>
+                     <td class="organisationname">Provides Social Login Service via Naver ID</td>
+                     <td class="actions">Unlimited</td>
+                    </tr>
+         
+                 <tr>
+                     <td class="organisationnumber">View Profile</td>
+                     <td class="organisationname">Naver User Name, Email-adress, Phone-number, Nickname, Birthday, Age, Year of Birth, Profile</td>
+                     <td class="actions">Unlimited</td>
+                 </tr>
+         
+                 <tr>
+                     <td class="organisationnumber">Papago Translate</td>
+                     <td class="organisationname">Machine Translation wth Papago AI Database</td>
+                     <td class="actions">10,000 letters/day</td>
+                 </tr>
+         
+                 <tr>
+                    <td class="organisationnumber">Clova Face Recognization</td>
+                    <td class="organisationname">Returns Facial Information of inputed image</td>                     
+                    <td class="actions">1,000 request/day</td>
+
+                 </tr>
+         
+             </tbody>
+         </table>
+         </div>
+      </div>
+    </div>
+  </body>
+</html>
