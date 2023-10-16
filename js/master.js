@@ -7,6 +7,7 @@ var Body = {
         // document.querySelector('body').style.color = color
         $("body").css("color", color)
         $("h1").css("color", color)
+        $("td").css("color", "black")
     }
 }
 var Links = {
